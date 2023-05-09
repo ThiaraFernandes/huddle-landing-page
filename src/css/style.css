@@ -1,0 +1,122 @@
+body{
+    background: var(--color-primary) url(../images/bg-desktop.svg);
+    max-width: 1440px;
+    font-family: var(--font-family-open);
+    background-size: cover;
+    margin: 55px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;      
+}
+
+.container {
+    max-width: 100%;    
+}
+
+.logo{
+    display: flex;
+}
+
+.logo img{
+    height: 52px;
+    margin-bottom: 60px;
+}
+
+.container .informacoes{
+    display: flex;
+    margin-top: 0 auto;
+    gap: 10px;
+}
+
+.container .informacoes .info{
+    padding-left: 10px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.container .informacoes .info h1{
+    font-family: var(--font-family-poppins);    
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 25px;        
+}
+
+.container .informacoes .info p{
+    font-family: var(--font-family-open);
+    line-height: 25px;
+    font-weight: 300;
+    font-size: 1rem;
+    margin-bottom: 15px;
+    letter-spacing: 1px;    
+}
+
+.container .informacoes .btn{    
+    background-color: #fff;
+    color: var(--color-primary);
+    cursor: pointer;
+    padding: 17px;
+    width: 200px;
+    font-size: 17px;
+    border-radius: 40px;   
+    text-align: center; 
+    border: none;
+    box-shadow: 1px 1px 5px rgba(19, 18, 18, 0.616);
+    transition: 0.2s ease-in-out;   
+} 
+
+.container .informacoes .btn:hover{
+    color: #fff;
+    background-color: var(--color-soft);
+    opacity: 0.8;
+}  
+
+footer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+footer .social{
+  font-size: 2rem;
+  display: flex;
+  justify-content: flex-end;
+  padding: 18px 0 39px;
+  margin: 0 78px;
+  gap: 15px;
+}
+
+.fa-facebook{
+    color: #ffffff;
+    padding: 10px 13.75px;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.fa-twitter{
+  color: #ffffff;
+  padding: 10px;
+  border: 1.5px solid #ffffff;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+
+.fa-instagram{
+  color: #ffffff;
+  padding: 10px 11.25px;
+  border: 1.5px solid #ffffff;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-instagram:hover {
+  cursor: pointer;
+  color: var(--color-soft);
+  border-color: var(--color-soft);
+}
